@@ -1,4 +1,3 @@
-%%writefile growth_tracker_corrected.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -1083,3 +1082,4 @@ def show_clinical_report(calculator, pdf_generator):
 
 if __name__ == "__main__":
     main()
+
