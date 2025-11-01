@@ -1656,13 +1656,6 @@ def main():
         st.rerun()
     
     st.sidebar.markdown("---")
-    st.sidebar.info("""
-    **Dataset Improvements:**
-    - ✅ Complete monthly data 0-36 months
-    - ✅ Enhanced linear interpolation  
-    - ✅ Comprehensive parameter coverage
-    - ✅ Clinical range validation
-""")
     
     if st.sidebar.button("🗑️ Clear All Data", use_container_width=True, type="secondary"):
         clear_all_data()
@@ -1673,6 +1666,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
