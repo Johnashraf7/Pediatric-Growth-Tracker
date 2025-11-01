@@ -1623,7 +1623,7 @@ def show_clinical_report(calculator, report_generator):
                 st.error("Failed to generate PDF report. Please try again.")
 
 def main():
-    st.markdown('<h1 class="main-header">👶 CDC LMS Pediatric Growth Tracker - Clinical Edition</h1>', 
+    st.markdown('<h1 class="main-header">👶 CDC LMS Pediatric Growth Tracker </h1>', 
                 unsafe_allow_html=True)
     
     # Use the clinical-grade calculator
@@ -1673,5 +1673,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
